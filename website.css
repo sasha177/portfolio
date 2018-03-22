@@ -1,0 +1,90 @@
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  background-image: url(http://calvarychapelinland.org/wp-content/uploads/2014/01/background_image_template1.jpg);
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+}
+
+row {
+  background: black;
+}
+
+footer {
+  text-align: right;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 2s ease;
+  background:rgba(255,255,255,0.5);
+}
+
+
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  opacity: 0;
+  transition: 2s ease;
+  background:rgba(255,255,255,0.5);
+}
+
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
